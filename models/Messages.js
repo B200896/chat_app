@@ -14,6 +14,11 @@ const messagesSchema = new mongoose.Schema(
     socketId: {
       type: String,
     },
+    sender:{
+      type:String,
+      default:"text"
+
+    },
     isRead: {
       type: Boolean,
       default: false,
