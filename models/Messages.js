@@ -19,6 +19,11 @@ const messagesSchema = new mongoose.Schema(
       default:"text"
 
     },
+    // receiverEmail:{
+    //   type:String,
+    //   lowercase:"text",
+    //   required:true
+    // },
     isRead: {
       type: Boolean,
       default: false,
